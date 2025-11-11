@@ -162,6 +162,27 @@ footer {
   margin-left: 20px;
   margin-bottom: 0;
   color: #333;
+  /* Hide bullet points and style participants list */
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+}
+
+.delete-participant {
+  margin-left: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #c00;
+  font-size: 1.2em;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #900;
 }
 
 .no-participants {
